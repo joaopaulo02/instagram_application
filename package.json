@@ -1,0 +1,20 @@
+{
+  "name": "instagram-application",
+  "version": "1.0.0",
+  "description": "An Instagram application to facilitate the tasks of comment a post and like it.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaopaulo02/instagram_application.git"
+  },
+  "author": "João Paulo N.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaopaulo02/instagram_application/issues"
+  },
+  "homepage": "https://github.com/joaopaulo02/instagram_application#readme"
+}
