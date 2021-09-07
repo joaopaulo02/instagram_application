@@ -1,23 +1,17 @@
-
 <!DOCTYPE html>
 <html>
-      
-<head>
-    <title>
-        searchbar
-    </title>
-      
-    <!-- linking the stylesheet(CSS) -->
-    <link rel="stylesheet" type="text/css" href="./style.css">
-</head>
-  
-<body>     
-    <!-- input tag -->
-    <input id="searchbar" onkeyup="search_tag()" type="text"
-        name="search" placeholder="Search for a tag.">
-      
-    <!-- linking javascript -->
-    <script src="./search_bar.js"></script>
-</body>
-  
+    <head>
+        <!-- Links -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="search_bar.css">
+
+        <title>searchbar</title>    
+    </head>
+    <body>
+        <!-- The form -->
+        <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search for a tag..." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </body>
 </html>
