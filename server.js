@@ -3,7 +3,7 @@ const app = express()
  
 // routes 
 app.get('/search-bar', function (req, res) {
-    res.sendFile(__dirname + '/search_bar.html')
+    res.sendFile(__dirname + '/search_bar/search_bar.html')
 })
  
 app.listen(3000)
