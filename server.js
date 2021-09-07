@@ -1,12 +1,9 @@
-// app.get('/', function (req, res) {
-//     res.sendFile(__dirname + '/views/index.html');
-//    });
-
 const express = require('express')
 const app = express()
  
-app.get('/', function (req, res) {
-  res.send('Hello World')
+// routes 
+app.get('/search-bar', function (req, res) {
+    res.sendFile(__dirname + '/search_bar/search_bar.html')
 })
  
 app.listen(3000)
