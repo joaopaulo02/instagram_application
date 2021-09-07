@@ -1,4 +1,4 @@
-function search_tag() {
-    let input = document.getElementById('searchbar').value
-    input=input.toLowerCase();
+function storeTag() {
+    var tag = document.querySelector('#tag').value 
+    alert(tag)
 }
