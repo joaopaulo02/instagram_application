@@ -21,5 +21,4 @@ function pageRedirect() {
         tagLink = `https://www.instagram.com/explore/tags/${formatedTag}/`
         window.location.replace(tagLink)
     }
-
 }
