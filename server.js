@@ -8,7 +8,7 @@ app.use(express.static('search_bar'))
 app.use(express.urlencoded({extended: true}))
 
 // routes 
-app.get('/search-bar', function (req, res) {
+app.get('/', function (req, res) {
     res.sendFile(__dirname + '/search_bar/search_bar.html')
 })
 
