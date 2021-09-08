@@ -25,13 +25,3 @@ button {
    cursor: pointer;
 }
  
-form.searchBarForm button:hover {
-   background: #0b7dda;
-}
- 
-/* Clear floats */
-form.searchBarForm::after {
-   content: "";
-   clear: both;
-   display: table;
-}
