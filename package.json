@@ -19,7 +19,6 @@
   "homepage": "https://github.com/joaopaulo02/instagram_application#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "instagram-web-api": "^2.2.2",
     "nodemon": "^2.0.12"
   }
 }
