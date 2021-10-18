@@ -1,0 +1,4 @@
+[build] 
+base = "."
+command = "node server.js"
+publish = "./search_bar/"
