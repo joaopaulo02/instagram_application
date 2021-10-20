@@ -16,5 +16,5 @@ app.get('/privacy-policy', function (req, res) {
     res.sendFile(__dirname + '/privacy_policy/privacy_policy.html')
 })
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
 console.log('Server running at localhost:3000')
